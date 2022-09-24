@@ -1,0 +1,122 @@
+:root {
+ --textcolor: white;
+
+}
+
+body {
+   background-image: url(./macbook2.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   color: var(--textcolor);
+}
+
+header {
+    
+}
+
+.logo {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    background-image: linear-gradient(
+        rgb(254, 0, 68) 0%,
+        rgb(167, 48, 69) 100%
+    );
+    /*border: 10px solid red;
+    border-radius: 10%; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2;
+}
+
+#logo-top {
+
+}
+
+#logo-bottom {
+
+}
+
+nav {
+
+}
+
+nav a {
+    color: var(--textcolor)
+}
+
+nav ul {
+
+}
+
+nav ul li {
+
+}
+
+nav ul li ul {
+
+}
+
+nav ul li ul li {
+
+}
+
+.main {
+
+}
+
+h1 {
+
+}
+
+h2 {
+    
+}
+
+#HTML {
+
+}
+
+#CSS {
+
+}
+
+#js {
+
+}
+
+#apis {
+
+}
+
+#node {
+
+}
+
+aside {
+
+}
+
+h3 {
+
+}
+
+footer {
+
+}
+
+h4 {
+
+}
+
+
+
+
+
+
+
+
+
