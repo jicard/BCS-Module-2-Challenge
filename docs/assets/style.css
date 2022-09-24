@@ -71,14 +71,53 @@ nav ul li ul li {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border: 10px solid teal;
+    width: 600px;
+    /*border: 10px solid teal;*/
     margin-left: 33.333%;
 }
 
 .card {
-    border: 5px solid red;
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    line-height: 250px;
+}
+
+#HTML {
+  background-image: linear-gradient(
+    red 0%,
+    orange 100%
+  );  
+  width: 520px;
+}
+
+#CSS {
+ background-image: linear-gradient(
+    blue 0%,
+    lightblue 100%
+ );   
+}
+
+#js {
+    background-image: linear-gradient(
+        goldenrod 0%,
+        yellow 100%
+    );
+}
+
+#apis { 
+    background-image: linear-gradient(
+        rgb(194, 146, 252) 0%,
+        rgb(141, 84, 255) 100%
+    );
+}
+
+#node {
+   background-image: linear-gradient(
+    green 0%,
+    lightgreen 100%
+   ); 
 }
 
 h1 {
@@ -86,12 +125,11 @@ h1 {
     width: 100%;
     height: 50px;
     align-content: center;
-    margin: 0 50%;
-    
 }
 
 h2 {
-    
+    font-family: monospace;
+    font-size: 50px;
 }
 
 /*
