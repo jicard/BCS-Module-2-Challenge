@@ -37,26 +37,54 @@ body {
 
 #logo-bot {
     font-style: italic;
+}  
+
+.dropdown {
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1 0 20%;
+    width: fit-content;
 }
 
-nav {
-    display: inline-block;
-    border: 10px solid red;
-    border-radius: 10%;
+.myprojects {
+    background-color: aqua;
+    border: none;
+    color: var(--textcolor);
 }
 
-nav a {
-    color: var(--textcolor)
+.myprojects-content{
+    display: none;
+    position: absolute;
+    background-color: brown;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-nav ul {
-    border: 10px solid yellow;
-    border-radius: 10%;
+.codelink {
+    color: var(--textcolor);
+    padding: 12px 16px;
+    text-decoration: none !important;
+    display: block;
 }
 
-nav ul li {
-    border: 10px solid orange;
-    border-radius: 10%;
+.myprojects-content a:hover {
+    background-color: greenyellow;
+}
+
+.dropdown:hover .myprojects-content {
+    display: flex;
+    position: relative;
+}
+
+.dropdown:hover .myprojects {
+    background-color: hotpink;
+}
+
+.contactme {
+    color: var(--textcolor);
 }
 
 /*

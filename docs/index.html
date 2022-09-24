@@ -15,12 +15,18 @@
             <logo id="logo-bot">Full-Stack Web Developer</logo>
         </div>
         <nav>
-            <div class="dd">
-                <button class="dd-button">Menu</button>
-                <div class="dd-list">
-                    <a class="dd-link" href="assets/aboutme.html">About Me</a>
-                    <a class="dd-link" href="assets/contactme.html">Contact Me</a>
+            <div class="dropdown">
+                <button class="myprojects">My Projects</button>
+                <div class="myprojects-content">
+                    <a class="codelink" href="#HTML">HTML</a>
+                    <a class="codelink" href="#CSS">CSS</a>
+                    <a class="codelink" href="#js">JavaScript</a>
+                    <a class="codelink" href="#apis">APIs</a>
+                    <a class="codelink" href="#node">Node.js</a>
                 </div>
+                <div class="contactmelink">
+                    <a class="contactme" href="#contact">Contact Me</a>
+                </div>    
             </div>
         </nav>
     </header>
@@ -43,6 +49,13 @@
             <div class="card" id="node">
                 <h2>Node.js</h2>
             </div>
+        </section>
+    <br>
+        <section class="contactmebuttons" id="contact">
+            <div class="click">Click below to connect with me!</div>
+            <input type="button" title="Send me an email" class="email-button" value="Send me an email!" id="email-button" onclick=location.href='mailto:icardj@outlook.com' >
+            <input type="button" title="My Github" class="github-button" value="Clone my code!" id="github-button" onclick=window.open'('https://github.com/jicard') >
+            <input type="button" title="My LinkedIn" class="linkedin-button" value="Add me on LinkedIn!" id="linkedin-button" onclick=window.open('https://www.linkedin.com/in/joshicard') >
         </section>
     </main>
 
