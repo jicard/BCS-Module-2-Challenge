@@ -8,31 +8,24 @@
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
   </head>
+
   <body>
     <header>
-        <div class="logo">
-            <logo id="logo-top">Josh Icard</logo>
-            <logo id="logo-bot">Full-Stack Web Developer</logo>
-        </div>
         <nav>
-            <div class="dropdown">
-                <button class="myprojects">My Projects</button>
-                <div class="myprojects-content">
-                    <a class="codelink" href="#HTML">HTML</a>
-                    <a class="codelink" href="#CSS">CSS</a>
-                    <a class="codelink" href="#js">JavaScript</a>
-                    <a class="codelink" href="#apis">APIs</a>
-                    <a class="codelink" href="#node">Node.js</a>
-                </div>
-                <div class="contactmelink">
-                    <a class="contactme" href="#contact">Contact Me</a>
-                </div>    
-            </div>
+            <a class="codelink" href="#HTML">HTML</a>
+            <a class="codelink" href="#CSS">CSS</a>
+            <a class="codelink" href="#js">JavaScript</a>
+            <a class="codelink" href="#apis">APIs</a>
+            <a class="codelink" href="#node">Node.js</a>
+            <a class="contactme" href="#contact">Contact Me</a>  
         </nav>
-    </header>
+    </header>   
 
     <main>
-        <h1>My Work</h1>
+        <section class="aboutme" id="aboutme">
+            <p class="hi">Hi! I'm Josh Icard, a Warehouse Supervisor and Web Developer.</p>
+            <img class="profile" src="assets/photo.jpeg" alt="picture of me">
+        </section>
         <section class="main">
             <div class="card-top" id="HTML">
                 <h2>HTML</h2> 
@@ -58,12 +51,6 @@
             <input type="button" title="My LinkedIn" class="linkedin-button" value="Add me on LinkedIn!" id="linkedin-button" onclick=window.open('https://www.linkedin.com/in/joshicard') >
         </section>
     </main>
-
-<!--
-    <aside>
-        <h3>"The supreme art of war is to subdue the enemy without if/else statements." - Sun Tzu (probably)</h3>
-    </aside>
--->
 
     <footer>
         <h4>Thanks for checking out my portfolio!</h4>
