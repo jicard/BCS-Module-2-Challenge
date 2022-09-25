@@ -15,7 +15,7 @@ body {
    background-attachment: fixed;
    color: var(--textcolor);
    font-family: var(--fontfam);
-   overflow: auto;
+   overflow: scroll;
 }
 
 nav {
