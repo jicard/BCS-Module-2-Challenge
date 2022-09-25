@@ -8,14 +8,19 @@
     width: 100%;
 }
 */
+html {
+   overflow: hidden;
+   height: 100%;
+}
 
 body {
+   overflow: auto;
+   height: 100%;
    background-image: url(./macbook2.jpg);
    background-size: cover;
    background-attachment: fixed;
    color: var(--textcolor);
    font-family: var(--fontfam);
-   overflow: scroll;
 }
 
 nav {
