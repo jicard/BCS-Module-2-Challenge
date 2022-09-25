@@ -10,4 +10,4 @@ The focus of this project was to display everything I've learned so far througho
 
 Read the brief "About Me" section, then use the "My Projects" and "Contact Me" links to jump to their corresponding sections. 
 
-![full-page-screenshot](./assets/full-size-screenshot.png)
+![full-page-screenshot](/assets/full-size-screenshot.png)
