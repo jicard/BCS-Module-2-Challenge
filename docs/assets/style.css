@@ -144,50 +144,91 @@ h1 {
     margin: 10px;
     text-align: center;
     line-height: 250px;
-    height: max-content;
+    height: 500px;
     width: 80%;
     border-radius: 10px;
 }
 
-h2 a {
-    font-family: monospace;
-    font-size: 50px;
-    color: var(--textcolor);
+
+.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 #HTML {
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
     red 0%,
     orange 100%
-  );
+  ); */
+  background-image: url(./htmlscreenshot.png);
+  background-size: cover;
+  font-size: 50px;
+  text-align: center;
+}
+
+#HTML a {
+    color: black;
 }
 
 #CSS {
- background-image: linear-gradient(
+ /*background-image: linear-gradient(
     blue 0%,
     lightblue 100%
- );   
+ ); */
+ background-image: url(./cssscreenshot.png);
+ background-size: contain; 
+ font-size: 50px;
+ text-align: left;
+}
+
+#CSS a {
+    color: lightblue;
 }
 
 #js {
-    background-image: linear-gradient(
+    /*background-image: linear-gradient(
         goldenrod 0%,
         yellow 100%
-    );
+    ); */
+    background-image: url(./javascriptscreenshot.png);
+    background-size: cover;
+    font-size: 50px;
+    text-align: left;
+}
+
+#js a {
+    color: goldenrod;
 }
 
 #apis { 
-    background-image: linear-gradient(
+    /*background-image: linear-gradient(
         rgb(194, 146, 252) 0%,
         rgb(141, 84, 255) 100%
-    );
+    ); */
+    background-image: url(./apiscreenshot.jpeg);
+    background-size: cover;
+    font-size: 50px;
+    text-align: left;
+}
+
+#apis a {
+    color: black;
 }
 
 #node {
-   background-image: linear-gradient(
+   /*background-image: linear-gradient(
     green 0%,
     lightgreen 100%
-   ); 
+   ); */
+   background-image: url(./nodejsscreenshot.png);
+   background-size: cover;
+   font-size: 50px;
+   text-align: left;
+}
+
+#node a {
+    color: lightcyan;
 }
 
 .contactmebuttons {
